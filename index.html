@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-        <title>Zomato  </title>
-    </head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zomato - Largest Food Delivery network</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet">
+     </head>
     <body>
-        <header>
+        <header class="header">
             <nav class="navbar">
-                <div class="navbar_brand" >
-                    <img src="./assets/logo.png" alt="logo">
+                <div class="navbar__brand" >
+                    <img class="navbar__brand__logo" src="./assets/logo.png" alt="logo">
+                </div>
+                <div class="navbar__items">
+                    <div class="navbar__item">
+                        <button class="primary__button">Order Food</button>
+                    </div>
                 </div>
             </nav>
         </header>
+        <main class="container">
+            <section class="hero__container">
+                <div class="hero__image__container">
+                    <img src="assets/hero.jpg" alt="hero image" class="hero__image">
+                    <img src="assets/heroShape.svg" alt="hero Shape" class="hero__shape">
+                    <img src="assets/heroShapePattern.svg" alt="hero Shape Pattern" class="hero__shape__pattern">
+                </div>
+                <div class="hero__text__container">
+                    <h1 class="hero__text">Order food from favourite restaurants near you.</h1>
+                    <button class="primary__button">Order Now</button>
+                </div>
+            </section>
+        </main>
+        
     </body>
 </html>
